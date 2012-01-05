@@ -219,52 +219,52 @@
 
     <!-- Base Video List -->
     <buttonlist name="basevideolist">
-        <area>786,549,1136,535</area>
+        <area>786,49,1136,1035</area>
         <scrollstyle>free</scrollstyle>
         <wrapstyle>items</wrapstyle>
         <layout>vertical</layout>
         <spacing>0</spacing>
         <drawfrombottom>true</drawfrombottom>
-        <buttonarea>2,0,1136,535</buttonarea>
+        <buttonarea>2,0,1136,1035</buttonarea>
         <statetype name="buttonitem">
             <state name="active">
-                <area>1,0,1132,89</area>
+                <area>1,0,1132,93</area>
                 <shape name="item">
-                    <area>0,0,100%,88</area>
+                    <area>0,2,100%,92</area>
                     <type>box</type>
                     <fill color="#000000" alpha="180" />
                 </shape>
                 <imagetype name="coverart">
-                    <area>6,2,50,85</area>
+                    <area>6,4,50,85</area>
                     <preserveaspect>true</preserveaspect>
                     <alpha>160</alpha>
                 </imagetype>
                 <textarea name="title">
-                    <area>70,10,1070,40</area>
+                    <area>70,12,1070,40</area>
                     <align>left,vcenter</align>
                     <font>basemedium</font>
                     <alpha>210</alpha>
                 </textarea>
                 <textarea name="subtitle">
-                    <area>90,56,860,30</area>
+                    <area>90,58,860,30</area>
                     <align>left,vcenter</align>
                     <font>basesmall</font>
                     <alpha>210</alpha>
                 </textarea>
                 <textarea name="year">
-                    <area>674,10,450,40</area>
+                    <area>674,12,450,40</area>
                     <align>right,vcenter</align>
                     <font>basesmall</font>
                     <alpha>210</alpha>
                 </textarea>
                 <textarea name="##x##">
-                    <area>937,56,187,30</area>
+                    <area>937,58,187,30</area>
                     <align>right,vcenter</align>
                     <font>basesmall</font>
                     <alpha>210</alpha>
                 </textarea>
                 <imagetype name="divider">
-                    <area>0,88,1136,2</area>
+                    <area>0,92,1136,2</area>
                     <filename>images/baserecordinglistwide_divider.png</filename>
                     <alpha>100</alpha>
                 </imagetype>
@@ -327,7 +327,7 @@
             <state name="selectedinactive" from="active" />
         </statetype>
         <statetype name="upscrollarrow">
-            <position>1075,-30</position>
+            <position>775,-30</position>
             <state type="off">
             </state>
             <state type="full">
@@ -338,7 +338,7 @@
             </state>
         </statetype>
         <statetype name="downscrollarrow">
-            <position>1057,-30</position>
+            <position>757,-30</position>
             <state type="off">
             </state>
             <state type="full">
