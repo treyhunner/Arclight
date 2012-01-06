@@ -3,7 +3,7 @@ str BackgroundColor=#1a1a1a
 # Color of lines, text, etc
 str ForegroundColor=1a1a1a
 # Pixmap to use for the background
-str BackgroundPixmap=Backgrounds/tendrils1.png
+str BackgroundPixmap=Backgrounds/mythbuntu.png
 str Font=Frutiger LT Std
 
 # Forground for dialogs
