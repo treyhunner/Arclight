@@ -232,7 +232,7 @@
                 <shape name="item">
                     <area>0,2,100%,92</area>
                     <type>box</type>
-                    <fill color="#000000" alpha="180" />
+                    <fill color="#000000" alpha="140" />
                 </shape>
                 <imagetype name="coverart">
                     <area>6,4,50,85</area>
@@ -293,7 +293,7 @@
             </state>
             <state name="selectedactive" from="active">
                 <shape name="item">
-                    <fill color="#0767AB" alpha="240" />
+                    <fill color="#0767AB" alpha="180" />
                 </shape>
                 <textarea name="title">
                     <alpha>200</alpha>
